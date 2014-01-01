@@ -1,0 +1,6 @@
+libraries
+modules/*
+themes/*
+
+!modules/ny2014
+!themes/ny2014

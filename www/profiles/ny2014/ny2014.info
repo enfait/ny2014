@@ -1,0 +1,15 @@
+name = New Year 2014
+description = NY2014 install profile.
+core = 7.x
+distribution_name = New Year 2014
+exclusive = 1
+
+dependencies[] = admin_menu_toolbar
+dependencies[] = betterlogin
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = libraries
+dependencies[] = module_filter
+dependencies[] = r4032login
+dependencies[] = views
+dependencies[] = variable

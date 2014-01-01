@@ -1,0 +1,34 @@
+<?php
+
+
+function ny2014_install(){
+
+  // Enable the admin theme.
+  $admin_theme = 'shiny';
+  $default_theme = 'bartik';
+  theme_enable(array($admin_theme, $default_theme));
+  variable_set('theme_default', $default_theme);
+  variable_set('admin_theme', $admin_theme);
+  variable_set('node_admin_theme', '1');
+  variable_set('file_private_path', 'sites/default/private');
+
+//  $theme_settings = variable_get('theme_settings', array());
+//  $theme_settings['default_logo'] = FALSE;
+//  $theme_settings['logo_path'] = drupal_get_path('theme', 'training_cloud_admin').'/logo.png';
+//  variable_set('theme_settings', $theme_settings);
+}
+
+/**
+ * Implements hook_install_tasks_alter().
+ */
+function reservation_server_install_tasks_alter(&$tasks, $install_state) {
+
+  $tasks['install_select_profile']['display'] = FALSE;
+
+
+  // Set the installation theme.
+  _reservation_server_set_theme('shiny');
+
+}
+
+
