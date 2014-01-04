@@ -1,0 +1,8 @@
+name = NY2014
+core = 7.x
+
+base theme = stark
+
+stylesheets[all][] = css/ny2014.css
+scripts[] = js/packery.pkgd.js
+scripts[] = js/ny2014.js

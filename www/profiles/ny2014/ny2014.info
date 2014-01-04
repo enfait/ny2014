@@ -9,6 +9,7 @@ dependencies[] = betterlogin
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = libraries
+dependencies[] = ny2014_feature
 dependencies[] = module_filter
 dependencies[] = r4032login
 dependencies[] = views

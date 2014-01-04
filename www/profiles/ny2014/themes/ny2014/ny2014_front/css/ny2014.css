@@ -1,0 +1,53 @@
+
+
+.view-greetings * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.view-greetings > .view-content {
+}
+
+.view-greetings > .view-content:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.view-greetings > .view-content > .views-row {
+    display: inline;
+    float: left;
+}
+
+.view-greetings > .view-content > .views-row > div {
+    border: 2px solid gray;
+    margin:2px;
+    width:200px;
+    height: 200px;
+    padding: 5% 0;
+
+}
+
+
+.view-greetings > .view-content > .views-row > div.big {
+    border: 2px solid gray;
+    width:300px;
+    height: 300px;
+}
+
+.view-greetings > .view-content > .views-row > .node-greeting {
+    cursor: pointer;
+}
+
+.view-greetings > .view-content > .views-row .field-name-field-audio {
+    visibility: hidden;
+    height: 0;
+}
+
+.quest, .excl {
+    padding: 10%;
+}
+
+.excl {
+}
