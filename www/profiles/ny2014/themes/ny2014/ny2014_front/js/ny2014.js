@@ -6,7 +6,8 @@
         attach: function (context, settings) {
             var $container = $('.view-greetings .view-content').packery(
                 {
-                    gutter: 10
+                    gutter: 10,
+                    itemSelector: ".views-row"
                 }
             );
 
@@ -15,7 +16,8 @@
             $('.view-greetings .node-greeting').on('click', function(event){
                 var $target = $(event.currentTarget);
                 $target.addClass('big');
-                $container.packery('fit', $(event.currentTarget).parent()[0]);
+                //$container.packery('fit', $(event.currentTarget).parent()[0]);
+                $container.packery();
                 var $link = $target.find('.field-name-field-audio a');
                 var someSound = sm2.createSound({
                     url:$link.attr('href')
@@ -25,8 +27,8 @@
                         someSound.finish();
                     },
                     onfinish: function() {
-                        $target.removeClass('big');
-                        $container.packery();
+                        //$target.removeClass('big');
+                        //$container.packery();
                     }
                 });
             });
