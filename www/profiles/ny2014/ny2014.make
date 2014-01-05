@@ -73,7 +73,7 @@ projects[views][version] = "3.7"
 
 ; themes
 projects[shiny][subdir] = "contrib"
-projects[shiny][version] = "1.3"
+projects[shiny][version] = "1.4"
 
 libraries[soundmanager2][download][url] = "http://www.schillmania.com/projects/soundmanager2/download/soundmanagerv297a-20131201.zip"
 libraries[soundmanager2][download][type] = "file"
