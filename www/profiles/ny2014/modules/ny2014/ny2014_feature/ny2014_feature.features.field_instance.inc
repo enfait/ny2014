@@ -28,7 +28,7 @@ function ny2014_feature_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 2,
+        'weight' => 8,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -157,7 +157,7 @@ function ny2014_feature_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 1,
+        'weight' => 7,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -206,10 +206,14 @@ function ny2014_feature_field_default_field_instances() {
         'weight' => 3,
       ),
       'greeting_item' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'greeting_square',
+        ),
+        'type' => 'image',
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',

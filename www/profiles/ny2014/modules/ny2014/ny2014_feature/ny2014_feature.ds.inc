@@ -23,10 +23,12 @@ function ny2014_feature_ds_layout_settings_info() {
     'regions' => array(
       'ds_content' => array(
         0 => 'field_audio',
+        1 => 'field_image',
       ),
     ),
     'fields' => array(
       'field_audio' => 'ds_content',
+      'field_image' => 'ds_content',
     ),
     'classes' => array(),
   );
