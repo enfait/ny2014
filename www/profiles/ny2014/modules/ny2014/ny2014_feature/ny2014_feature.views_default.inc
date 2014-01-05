@@ -33,6 +33,14 @@ function ny2014_feature_views_default_views() {
   $handler->display->display_options['row_plugin'] = 'node';
   $handler->display->display_options['row_options']['view_mode'] = 'greeting_item';
   $handler->display->display_options['row_options']['links'] = FALSE;
+  /* Header: Global: Unfiltered text */
+  $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['content'] = '<div class="container">
+Praesent aliquet rhoncus ante, id tempor velit porta ut. Phasellus a quam consectetur, rutrum sapien eu, condimentum felis. Vestibulum aliquet nunc et dolor imperdiet, in vestibulum nunc rhoncus. Vestibulum non ipsum ac massa fringilla faucibus vel in tortor. Proin ut diam arcu! Mauris metus mauris; ultrices vitae faucibus sit amet, aliquam vel elit posuere.
+</div>
+';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';

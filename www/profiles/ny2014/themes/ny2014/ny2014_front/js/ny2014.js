@@ -4,7 +4,13 @@
 
     Drupal.behaviors.ny2014 = {
         attach: function (context, settings) {
-            var $container = $('.view-greetings .view-content').packery();
+            var $container = $('.view-greetings .view-content').packery(
+                {
+                    gutter: 10
+                }
+            );
+
+
 
             $('.view-greetings .node-greeting').on('click', function(event){
                 var $target = $(event.currentTarget);
