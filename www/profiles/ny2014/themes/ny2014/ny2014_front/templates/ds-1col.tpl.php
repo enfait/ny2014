@@ -13,5 +13,4 @@ $colors = field_get_items('node', $node, 'field_color');
   <?php endif; ?>
 
   <?php print $ds_content; ?>
-  <div class="quest">?</div>
 </div>
