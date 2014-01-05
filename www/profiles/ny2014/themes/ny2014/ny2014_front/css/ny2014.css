@@ -21,11 +21,10 @@
 }
 
 .view-greetings > .view-content > .views-row > div {
-    border: 2px solid gray;
-    margin:2px;
+    box-shadow: 0 8px 6px -6px #bbbbbb;
+    margin:10px;
     width:200px;
     height: 200px;
-    padding: 5% 0;
 
 }
 
@@ -45,9 +44,3 @@
     height: 0;
 }
 
-.quest, .excl {
-    padding: 10%;
-}
-
-.excl {
-}
