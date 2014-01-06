@@ -101,14 +101,14 @@
 
 @media screen and (max-width: 600px){
     #header h1 {
-        font-size: 70px;
+        font-size: 65px;
     }
 }
 
 @media screen and (max-width: 500px){
 
     #header h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
 }
