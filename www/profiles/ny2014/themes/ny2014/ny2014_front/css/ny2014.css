@@ -111,17 +111,6 @@
         font-size: 50px;
     }
 
-    .view-greetings > .view-content > .views-row > div {
-        width:80px;
-        height: 80px;
-
-    }
-
-
-    .view-greetings > .view-content > .views-row > div.big {
-        width:120px;
-        height: 100px;
-    }
 }
 
 .view-greetings > .view-content > .views-row > .node-greeting {
@@ -133,21 +122,3 @@
     height: 0;
 }
 
-/*.view-greetings > .view-header {*/
-    /*position: fixed;*/
-    /*top:0;*/
-    /*left: 0;*/
-    /*z-index: 99;*/
-    /*background-color: #ff0000;*/
-    /*background-color: rgba(128, 128, 255, 0.8);*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*margin: auto;*/
-    /*padding: 16px;*/
-/*}*/
-
-/*.view-greetings > .view-header > .container {*/
-    /*max-width: 600px;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-/*}*/
