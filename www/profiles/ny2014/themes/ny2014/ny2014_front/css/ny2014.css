@@ -25,6 +25,7 @@
     margin: 0 auto;
     max-width: 900px;
     margin-bottom: 16px;
+    text-align:center;
 }
 
 .view-greetings * {
